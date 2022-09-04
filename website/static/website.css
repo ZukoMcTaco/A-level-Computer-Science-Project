@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+    /*
+    Used to make the text in the body all sans-serif
+    */
+}
+form{
+  /*Styling for the login, sign up and reset password*/
+    background-color: violet;
+    border-radius: 25px;
+    text-align: left;
+    padding-top: 20px;
+    padding: 15px;
+    height: 1000px;
+    margin: 0 auto;
+    font-size: 23px;
+}
+
+        #box_home{
+          /*Styling for the box in the home page*/
+            padding-top: 50px;
+    background-color: rgb(8, 122, 253);
+    width: 1300px;
+    height: 1000px;
+    border-radius: 25px;
+    text-align: left;
+    padding: 15px;
+    margin: 0 auto;       
+    font-size: 30px;       
+            }
+        #image_box{
+          /*Styling for the box in the image box*/
+          margin-left:   auto;
+          margin-right:  auto;
+          width: 400px;
+          height: 400px;
+          justify-content: center;
+          background-color: white;
+          display:flex;
+          border: 10px black;
+        }
+        #image{
+          /*Styling for the box in the images*/
+          display: block;
+          margin-left:   auto;
+          margin-right:  auto;
+        }
+        .header-text{
+          /*Styling for the header text*/
+          text-align: center;
+          font-weight: bold;
+          text-decoration: underline; 
+        }
+        #chatbot_box{
+          /*id for the chatbox styling*/
+    background-color: darkviolet;
+    border-radius: 25px;
+    text-align: left;
+    padding-top: 20px;
+    padding: 15px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+        }
+        #convo_box{
+          /*id for the convo box styling*/
+    border-color: black;
+    width: 1260px;
+    background-color: white ;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+        }
+        nav{
+            padding: 20px;
+            padding-bottom: 20px;
+        }
+        .navbar.navbar-1 .navbar-toggler-icon {
+          background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=f0f');
+        }
+      .navbar.navbar-custom {
+        /*Styling to set the navbar colour to purple*/
+        background-color: rgb(93, 7, 140);
+      }
+      #home-text-box{
+        /*Styling for the box in the home page for the introductory pagragraph*/
+    background-color: white;
+    border-color: black;
+    border-radius:5px;
+    height: 85px;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+      }
+      .chatbot-header-box{
+        /*id for the chatbox styling*/
+        margin-bottom: 10px;
+        border: 2px solid black;
+        background-color: pink;
+        font-size: 23px;
+      }
+.messages__item{
+  /*Style for the text displayed in the response box*/
+  font-size: 20px;
+}

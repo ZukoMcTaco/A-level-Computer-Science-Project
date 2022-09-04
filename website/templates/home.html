@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+<!--base template is taken and used as a foundation for the home page-->
+{% block content %}
+<br><br>
+<div id="box_home">
+    <!--h1 used to make the header more visible-->
+    <h1 class="header-text" >Welcome master</h1>
+    <!--images loaded-->
+    <img id="image" src="{{ url_for('static', filename='confetti.png') }}" height="300px" width="300px">
+    
+    <img id="image"src="{{ url_for('static', filename='rem_pic.png') }}" height="200px" width="200px">
+    <!--images loaded-->
+    <br>
+    <br>
+    <div id="home-text-box">
+        <!--paragraph welcoming the user when the home page is accessed-->
+    <p id="home-text">Felicia is here to help with all your needs! Please make sure to login to access her facilities</p>
+    </div>    
+</div>
+
+{% endblock %}

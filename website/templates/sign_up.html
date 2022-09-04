@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block title %}Sign up{% endblock %}
+{% block content %}
+<br><br>
+<form method="POST">
+    <!--A post request is sent to send the input of the user's details-->
+    <h3 align="center"class="header-text"> Sign up</h3>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+        <label for="username">Username</label>
+        <!--label containing the username-->
+        <input type="username" class="form-control" id="username" name="username" placeholder="Enter your username">
+        <!--Input field for username of user-->
+    
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <!--label containing the password-->
+        <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
+        <!--Input field for username of user-->
+    </div>
+    <div class="form-group">
+        <label for="password2">Confirm password</label>
+        <input type="password" class="form-control" id="password2" name="password2" placeholder="Enter your password again">
+        <!--Makes user enter their password again-->
+    </div>
+    <br>
+    <button type="submit" class="submit-button btn btn-primary btn-lg">Submit</button>
+    <!--submit button for user-->
+</form>
+{% endblock %}

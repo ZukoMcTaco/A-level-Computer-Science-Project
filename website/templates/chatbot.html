@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block title %}Chatbot{% endblock %}
+{% block content %}
+<br><br>
+<div class="chatbot-header-box">
+    <!-- box containing the header text-->
+    <h1 class=header-text>This is the chatbot page</h1>
+</div>
+
+
+<div id="chatbot_box">
+    <div id="image_box">
+        <!-- box containing the image box-->
+        <img id="image"src="{{ url_for('static', filename='felicia_neutral.png') }}" 
+        height="{{query_img_height}}" 
+        width="{{query_img_width}}">   
+    </div>
+    <br>
+    <br>
+    <div id="convo_box">
+
+    </div>
+    <br>
+    <br>
+    <div class="user_input_box">
+        <!-- input box for the user-->
+        <input class="input" type="text" placeholder="You: ">
+    </div>
+    <button class="send_button">Send</button>
+    <!-- Send button used to send the user's input-->
+
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <!-- loads the javascript-->
+
+{% endblock %}          

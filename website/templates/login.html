@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block title %}Login Page{% endblock %}
+{% block content %}
+<br><br>
+<form method="POST">
+    <!--header tag for the header to make it easier to read-->
+    <h3 align="center" class="header-text"> Log in</h3>
+    <div class="form-group">
+        <!--Label to clearly identify which input field is username-->
+        <label for="username">Username</label>
+        <input type="username" class="form-control" id="username" name="username" placeholder="Enter your username">
+    
+    </div>
+    <div class="form-group">
+        <!--Label to clearly identify which input field is for password-->
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
+    </div>
+    <br>
+    <!--Anchor tag for reset password page-->
+    <a id="reset"href="/reset">Forgot password?</a>
+    <br><br>
+    <!--Button to submit user details-->
+    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+</form>
+{% endblock %}
