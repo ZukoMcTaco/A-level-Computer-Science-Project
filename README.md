@@ -1,4 +1,4 @@
-This is my A-level Computer Science Project.
+This is my A-level Computer Science Project. (note: I haven't deployed the app yet :( )
 
 ![image](https://github.com/ZukoMcTaco/A-level-Computer-Science-Project/assets/112821163/cc067e11-5255-46bb-a118-a2a65ee52abc)
 
