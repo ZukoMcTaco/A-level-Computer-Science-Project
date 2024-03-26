@@ -1,4 +1,9 @@
 This is my A-level Computer Science Project.
+
+![image](https://github.com/ZukoMcTaco/A-level-Computer-Science-Project/assets/112821163/ce80506b-8847-4c83-bfa0-92b299085abb)
+
+
+
 ![image](https://github.com/ZukoMcTaco/A-level-Computer-Science-Project/assets/112821163/cebc2444-c360-429c-aab8-a7b387086674)
 
 
