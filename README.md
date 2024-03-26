@@ -17,7 +17,8 @@ and the trained model generates a response to the user and based on its response
 
 Example below:
 
-![image](https://github.com/ZukoMcTaco/A-level-Computer-Science-Project/assets/112821163/d7ac4440-1126-4109-80b9-9b8ff74725d8)
+![image](https://github.com/ZukoMcTaco/A-level-Computer-Science-Project/assets/112821163/9a7b64b3-6c0e-4ad5-80b5-f8dd02247195)
+
 
 
 
